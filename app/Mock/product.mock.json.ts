@@ -1,0 +1,373 @@
+export var ProductMock = [{
+    id:101,
+    name:'A1 Microwave',
+    type:'Microwave',
+    brand:'Brand1',
+    category:'Appliances',
+    cost:100,
+    currency:'$',
+    image_src:'/images/microwave.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:102,
+    name:'A2 Microwave',
+    type:'Microwave',
+    brand:'Brand2',
+    category:'Appliances',
+    cost:150,
+    currency:'$',
+    image_src:'/images/microwave.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer3',
+            desc:'great',
+            ratings:3
+
+        },
+        {
+            name:'Customer4',
+            desc:'Awesome',
+            ratings:4
+        }
+    ]
+},{
+    id:103,
+    name:'A3 Microwave',
+    type:'Microwave',
+    brand:'Brand3',
+    category:'Appliances',
+    cost:150,
+    currency:'$',
+    image_src:'/images/microwave.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:4
+
+        },
+        {
+            name:'Customer5',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:104,
+    name:'A4 Microwave',
+    type:'Microwave',
+    brand:'Brand4',
+    category:'Appliances',
+    cost:150,
+    currency:'$',
+    image_src:'/images/microwave.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:205,
+    name:'A1 Phones',
+    type:'Mobile',
+    brand:'Brand1',
+    category:'Gadgets',
+    cost:150,
+    currency:'$',
+    image_src:'/images/phone.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:206,
+    name:'A2 Phones',
+    type:'Mobile',
+    brand:'Brand2',
+    category:'Gadgets',
+    cost:150,
+    currency:'$',
+    image_src:'/images/phone.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer3',
+            desc:'great',
+            ratings:4
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:207,
+    name:'A3 Phones',
+    type:'Mobile',
+    brand:'Brand3',
+    category:'Gadgets',
+    cost:150,
+    currency:'$',
+    image_src:'/images/phone.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer4',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},
+{
+    id:208,
+    name:'A4 Phones',
+    type:'Mobile',
+    brand:'Brand4',
+    category:'Gadgets',
+    cost:150,
+    currency:'$',
+    image_src:'/images/phone.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:301,
+    name:'A1 Fridge',
+    type:'Fridge',
+    brand:'Brand1',
+    category:'Appliances',
+    cost:150,
+    currency:'$',
+    image_src:'/images/fridge.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:302,
+    name:'A2 Fridge',
+    type:'Fridge',
+    brand:'Brand2',
+    category:'Appliances',
+    cost:150,
+    currency:'$',
+    image_src:'/images/fridge.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer3',
+            desc:'great',
+            ratings:3
+
+        },
+        {
+            name:'Customer4',
+            desc:'Awesome',
+            ratings:4
+        }
+    ]
+},{
+    id:303,
+    name:'A3 Fridge',
+    type:'Fridge',
+    brand:'Brand3',
+    category:'Appliances',
+    cost:150,
+    currency:'$',
+    image_src:'/images/fridge.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:4
+
+        },
+        {
+            name:'Customer5',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:304,
+    name:'A4 Fridge',
+    type:'Fridge',
+    brand:'Brand4',
+    category:'Appliances',
+    cost:150,
+    currency:'$',
+    image_src:'/images/fridge.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:305,
+    name:'A1 Tablet',
+    type:'Tablet',
+    brand:'Brand1',
+    category:'Gadgets',
+    cost:150,
+    currency:'$',
+    image_src:'/images/Tablet.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:406,
+    name:'A2 Tablet',
+    type:'Tablet',
+    brand:'Brand2',
+    category:'Gadgets',
+    cost:150,
+    currency:'$',
+    image_src:'/images/tablet.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer3',
+            desc:'great',
+            ratings:4
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},{
+    id:407,
+    name:'A3 Tablet',
+    type:'Tablet',
+    brand:'Brand3',
+    category:'Gadgets',
+    cost:150,
+    currency:'$',
+    image_src:'/images/tablet.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer4',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+},
+{
+    id:408,
+    name:'A4 Tablet',
+    type:'Tablet',
+    brand:'Brand4',
+    category:'Gadgets',
+    cost:150,
+    currency:'$',
+    image_src:'/images/tablet.jpeg',
+    avgRating:4,
+    comments:[
+        {
+            name:'Customer1',
+            desc:'great',
+            ratings:5
+
+        },
+        {
+            name:'Customer2',
+            desc:'Awesome',
+            ratings:5
+        }
+    ]
+}
+
+];

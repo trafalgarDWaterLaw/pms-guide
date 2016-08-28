@@ -1,0 +1,33 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        Product List
+    </div>
+
+    <!-- Filter the Products   -->
+    <div class='panel-body'>
+        <div class='table-responsive'>
+            <table class='table' *ngIf='products && products.length'>
+                <thead>
+                    <tr>
+                        <th>Prod. ID.</th>
+                        <th>Prod. Name.</th>
+                        <th>Prod. Type.</th>
+                        <th>Brand</th>
+                        <th>Price</th>
+                        <th>5 Star Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let product of products '>
+                        <td> {{product.id}}</td>
+                        <td>{{product.name}}</td>
+                        <td> {{product.type}}</td>
+                        <td> {{product.brand}}</td>
+                        <td> {{product.cost}}</td>
+                        <td>{{product.avgRating}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
